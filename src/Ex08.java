@@ -17,7 +17,7 @@ public static void main(String[] args) {
     System.out.println("informe o valor em dolares");
     double dolares = teclado.nextDouble();
 
-    double reais = dolares/5.25;
+    double reais = dolares*5.25;
     System.out.println("seus dolares deram " + df_2.format(reais) + "reais");
     teclado.close();
 

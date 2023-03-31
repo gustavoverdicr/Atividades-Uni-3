@@ -11,11 +11,11 @@ public class Ex06 {
         Scanner teclado = new Scanner(System.in);
         DecimalFormat df_2 = new DecimalFormat("0.00");
 
-        System.out.println("informar peso do prato");
+        System.out.println("informar peso da comida do prato");
         double peso = teclado.nextDouble();
 
         double pesototal = peso - 0.75;
-        double valor = pesototal * 25;
+        double valor = pesototal * 25.0;
 
         System.out.println("o valor total a pagar é " +  df_2.format(valor) + "reais");
         teclado.close();

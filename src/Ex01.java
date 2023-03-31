@@ -8,6 +8,11 @@ public class Ex01 {
         
         System.out.println("Informe o valor da base ");
         double base = teclado.nextDouble();
-        
+        System.out.println("informe o valor da altura");
+        double altura = teclado.nextDouble();
+        double area = base * altura;
+
+        System.out.println("a área do terreno é " + df.format(area));
+        teclado.close();
     }
 }

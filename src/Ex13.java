@@ -18,24 +18,9 @@ public class Ex13 {
         double metaju = (comprimento * altura) * 9;
         double azulejos = metaju * 12.50;
     
-        System.out.println("o valor gasto com a compra de azulejos é " + azulejos);
-
-        
-
-
-
-
-
-
-
-
-
-
+        System.out.println("o valor gasto com a compra de azulejos é " + df_2.format(azulejos));
+        teclado.close();
 
     }
-    
-    
 
-    
-    
 }

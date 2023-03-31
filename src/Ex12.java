@@ -8,16 +8,6 @@ public class Ex12 {
     //A empresa paga R$ 10,00 por hora (valor para cálculo do salário trabalho) e R$ 60,00 por dependente (valor para cálculo do salário família) e são
      //feitos descontos de 8,5% sobre o salário trabalho para o INSS e de 5% sobre o salário trabalho para o imposto de renda. Descreva um programa que informe o nome,
       //o salário bruto e o salário líquido do funcionário.
-
-
-
-
-
-
-
-
-
-
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
     DecimalFormat df_2 = new DecimalFormat("0.00");
@@ -33,13 +23,8 @@ public class Ex12 {
     double salariofinal = salariobruto * 13.5/100;
     double salariomassa = salariobruto - salariofinal;
 
-    System.out.println("o funcionario " + nome + " recebe um salario bruto de " + salariobruto + "e um salario liquido de " + salariomassa);
-
-
-
-
-
-
+    System.out.println("o funcionario " + nome + " recebe um salario bruto de " + df_2.format(salariobruto) + "e um salario liquido de " + df_2.format(salariomassa));
+    teclado.close();
 
     }
 }

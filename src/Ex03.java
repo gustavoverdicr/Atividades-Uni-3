@@ -17,10 +17,5 @@ public class Ex03 {
 
     double litroscompr = pagamento/precogasolina; 
     System.out.println("ele conseguiu comprar " + df_2.format(litroscompr) + "litros ");
-    
-
-
     }
-
-
 }

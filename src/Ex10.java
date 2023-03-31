@@ -14,7 +14,7 @@ public class Ex10 {
 
         double hipotenusa = Math.pow(cateto1, 2) + Math.pow(cateto2, 2);
         double rhipotenuda = Math.sqrt(hipotenusa);
-        System.out.println("o valor da hipotenusa é eae irmão " + rhipotenuda);
+        System.out.println("o valor da hipotenusa é eae irmão " + df_2.format(rhipotenuda));
         teclado.close();
         
     

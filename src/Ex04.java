@@ -19,20 +19,14 @@ public class Ex04 {
         System.out.println("informe a nota 3");
         double nota3 = teclado.nextDouble();
 
-        double nota1real = nota1 * 5;
-        double nota2real = nota2 * 3;
-        double nota3real = nota3 * 2;
-        double media = (nota1real + nota2real + nota3real)/10;
+        double nota1real = nota1 * 5.0;
+        double nota2real = nota2 * 3.0;
+        double nota3real = nota3 * 2.0;
+        double media = (nota1real + nota2real + nota3real)/10.0;
         
-        System.out.println("a media do aluno é " + media   );
-   
-   
-   
-   
-   
-   
-   
-   
-   
+        System.out.println("a media do aluno é " + df_2.format(media));
+        teclado.close();
+
+
     }
 }

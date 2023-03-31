@@ -20,7 +20,7 @@ double garrafona = teclado.nextDouble();
 
 double llata= lata*0.35;
 double lgarrafa= garrada*0.6;
-double lgarrafona = garrafona*2;
+double lgarrafona = garrafona*2.0;
 double qtdlitros= llata + lgarrafa + lgarrafona;
 
 System.out.println("a quantidade de litros de refrigerante comprada é "+ df_2.format(qtdlitros) + "litros");
